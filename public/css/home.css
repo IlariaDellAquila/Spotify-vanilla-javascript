@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+#forma{
+   background-color: white;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 140px;
+    padding: 3px;
+
+}
+input{
+    margin-top: 5px;
+    margin-left: 40px;
+    border: none;
+    outline:none;
+}
+#foto{
+    position: absolute;
+    color:white;
+    width: 30px;
+    height: 25px;
+
+}
+h1, h3{
+    color:white;
+    margin-left: 140px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+}
+#name{
+    color: white;
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+#username{
+    color: rgb(212, 211, 211);
+    padding-left: 30px;
+    
+}
+#grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 15px;
+    row-gap: 80px;
+    margin: 30px;
+    justify-content: center;   
+}
+#img{
+margin-left: 20px;
+    
+}
+#sottotitolo{
+    color: rgb(212, 211, 211);
+    
+}
